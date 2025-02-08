@@ -4,7 +4,7 @@
 
 Code and data from the paper “Construction of Complementary Patent Dataset Based on Patent Market Transactions”
 
-This article proposes a method for obtaining a complementary patent dataset by extracting transaction relationships between patents. There are multiple transfer categories in patent transfer records, and this article delves into direct transactions and joint research records to limit transaction frequency, transaction size, and patent text similarity, thereby constructing a complementary patent dataset.
+This article proposes a method for obtaining a complementary patent dataset by extracting transaction relationships between patents. There are multiple transfer categories in patent assignment records, and this article delves into direct transactions and joint research records to limit transaction frequency, transaction scale, and patent text similarity, thereby constructing a complementary patent dataset.
 
 ## Requirements
 
@@ -29,4 +29,4 @@ The comments in the code have been changed from Chinese to English. Part of the 
 ### Process
 
 - Perform data preprocessing on patent transfer data and patent authorization data separately using the files in 'Data_preprocessing'.
-- Merge patent transfer data and patent authorization data together using the files in 'Dataset_comstruction', extract corresponding transaction relationships, and ultimately construct a complementary patent dataset. The file code also includes some visual analysis of the dataset.
+- Merge patent transfer data and patent grant data together using the files in 'Dataset_comstruction', extract corresponding transaction relationships, and ultimately construct a complementary patent dataset. The file code also includes some visual analysis of the dataset.
